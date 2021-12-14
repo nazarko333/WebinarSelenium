@@ -1,16 +1,14 @@
 package TestAllure;
 
 
-
-
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Severity;
-import jdk.jfr.Category;
-import jdk.jfr.Description;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.qameta.allure.Description;
+//import jdk.jfr.Description;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
 
 @Listeners({AllureListener.class})

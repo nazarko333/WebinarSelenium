@@ -1,0 +1,69 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.8.10 built on Monday Dec 12, 2016 at 19:07:48 GMT
+---- Dump Properties ---
+Dump file: ajcore.20210602.184706.502.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+java.specification.version=15
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1251
+java.class.path=F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\test-classes;F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\classes;C:\Users\Nazarko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Nazarko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Nazarko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nazarko\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nazarko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nazarko\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nazarko\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nazarko\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nazarko\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nazarko\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nazarko\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nazarko\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nazarko\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Nazarko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Nazarko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Nazarko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Nazarko\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Nazarko\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Nazarko\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Nazarko\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Nazarko\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Nazarko\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Nazarko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Nazarko\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Nazarko\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Nazarko\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Nazarko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Nazarko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Nazarko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Nazarko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Nazarko\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Nazarko\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Nazarko\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Nazarko\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20\surefire-testng-utils-2.20.jar;C:\Users\Nazarko\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20\surefire-grouper-2.20.jar;
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=GMT+02:00
+java.vm.specification.version=15
+os.name=Windows 10
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.boot.library.path=C:\Program Files\Java\jdk-15.0.2\bin
+sun.java.command=F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\surefire\surefirebooter18201423080300285381.jar F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\surefire 2021-06-02T18-47-03_582-jvmRun1 surefire11280549749252486195tmp surefire_010532828625074286029tmp
+jdk.debug=release
+surefire.test.class.path=F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\test-classes;F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\classes;C:\Users\Nazarko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Nazarko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Nazarko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nazarko\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nazarko\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nazarko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nazarko\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nazarko\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nazarko\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nazarko\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nazarko\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nazarko\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nazarko\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nazarko\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Nazarko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Nazarko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Nazarko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Nazarko\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Nazarko\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Nazarko\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Nazarko\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Nazarko\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Nazarko\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Nazarko\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Nazarko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Nazarko\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Nazarko\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Nazarko\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Nazarko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Nazarko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Nazarko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Nazarko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Nazarko\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Nazarko\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Nazarko\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Nazarko\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20\surefire-testng-utils-2.20.jar;C:\Users\Nazarko\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20\surefire-grouper-2.20.jar;
+sun.cpu.endian=little
+user.home=C:\Users\Nazarko
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2021-01-19
+java.home=C:\Program Files\Java\jdk-15.0.2
+file.separator=\
+basedir=F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+surefire.real.class.path=F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium\target\surefire\surefirebooter18201423080300285381.jar
+user.script=
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=15.0.2+7-27
+user.name=Nazarko
+path.separator=;
+os.version=10.0
+java.runtime.name=Java(TM) SE Runtime Environment
+file.encoding=Cp1252
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+localRepository=C:\Users\Nazarko\.m2\repository
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\Nazarko\AppData\Local\Temp\
+java.version=15.0.2
+user.dir=F:\Programs\Install\MyPrograms\Programming\Settings\IntelliJIDEA\IdeaProjects\WebinarSelenium
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+java.library.path=C:\Program Files\Java\jdk-15.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Nazarko\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\Nazarko\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\allure-2.14.0\bin;C:\Users\Nazarko\AppData\Local\Microsoft\WindowsApps;C:\Users\Nazarko\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Nazarko\AppData\Roaming\npm;.
+java.vm.info=mixed mode, sharing
+java.vendor=Oracle Corporation
+java.vm.version=15.0.2+7-27
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=59.0
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+Empty
